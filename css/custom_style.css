@@ -1,0 +1,284 @@
+
+/* DEFAULTS */
+.primary-color{
+    color:#fd5f00
+}
+
+.secondary-color{
+    color: #0d1128;
+}
+.primary-bg{
+    background-color:#fd5f00
+}
+
+.secondary-bg{
+    background-color: #0d1128;
+}
+
+/* END OF DEFAULTS */
+
+/* HEADER STYLE BEGINS */
+div>p#logo-top{
+    font-size: 40px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 900;
+}
+
+div>p#logo-bottom{
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+#header-top-email{
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+}
+
+#header-top-email:hover{
+    text-decoration:none;
+}
+
+#header-apply-btn{
+    background-color: #fd5f00;
+    color: white;
+    padding: 10px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    text-decoration:none;
+}
+
+#header-apply-btn:hover{
+    background-color: white;
+    color: #fd5f00;
+    border: 1px solid #fd5f00;
+}
+
+#header-top-search{
+    border-radius: 25px;
+    padding:25px 10px;
+    width: 240px;
+    border: 1px solid rgb(126, 123, 123);
+    box-shadow: 0;
+    background-color: transparent;
+}
+
+#header-top-search::placeholder{
+    color: white;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+#header-top-search:focus{
+    color: white;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 2px;
+    box-shadow: none;   
+}
+
+/*  WHAT WE OFFER */
+
+.services-icon{
+    background-color: #fd5f00;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+
+/* ABOUT US SECTION BEGINS HERE */
+#about-us{
+    background-image: url("../images/bg_3.jpg");
+    padding: 20px;
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+#about-us::before{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0px;
+    bottom: 0;
+    content: "";
+    background-color: rgba(122, 49, 3, 0.7);
+}
+
+#about-us-icon{
+    color: #fd5f00;
+    background: white;
+    padding: 30px;
+    border-radius: 50%;
+    position: absolute;
+    right: 230px;
+   
+    top: 100px;
+    
+}
+
+#about-us-description h1{
+    font-family: 'poppins' sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 43px;
+}
+
+#about-us-description p{
+    font-family: 'poppins' sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#about-us-numbers h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+#about-us-numbers p{
+    font-size: 25px;
+}
+ /* OUR COURSES STYLE BEGINS HERE */
+.courses-apply-btn{
+    background-color: #fd5f00;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 40px;
+    
+}
+
+.courses-apply-btn:hover{
+    background-color: white;
+    color: #fd5f00;
+    border: 1px solid #fd5f00;
+    text-decoration: none;
+    
+} 
+
+.teacher{
+    color: red;
+}
+
+/* REQUEST QUOTE STYLES BEGINS HERE */
+#request-quote{
+    background-image: url("../images/bg_5.jpg");
+    padding-top: 20px;
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+#request-quote::before{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0px;
+    bottom: 0;
+    content: "";
+    background-color: rgba(122, 49, 3, 0.7);
+}
+
+.request-quote-input{
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+.request-quote-input::placeholder{
+    color: white;
+}
+
+.request-quote-input:focus{
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    box-shadow: none;
+}
+
+.req{
+    margin-top: 20px;
+}
+/* REQUEST QUOTE STYLES ENDS HERE */
+.admin{
+    margin-left: 200px;
+    margin-top: -30px;
+}
+.adminz{
+    margin-left: 300px;
+    margin-top: -70px;
+    color: gray;
+}
+
+#Khard:before{
+    position: absolute;
+    top: 10%;
+    right: 70%;
+    left: 0px;
+    bottom: 63%;
+    content: "";
+    background-color: rgb(49, 49, 99);
+}
+
+#gal{
+    width: 110%;}
+
+/* FOOTER */
+#footer{
+    background:black;
+    color: white;
+    
+}
+
+#icon{
+    color: white;
+}
+
+#footimg{
+    width: 120%;
+    height: 50%;
+}
+
+#blog p{
+    /* color: gray; */
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+#emailz{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    width: 120%;
+    height: 10%;
+    border-radius: 3%;
+    padding-left: 20px;
+}
+#sub{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    width: 120%;
+    height: 10%;
+    border-radius: 3%;
+    text-align: center;
+    padding-left: 40px;
+}
+
+#email::placeholder{
+    color: white;
+    text-decoration: none;
+    border:none;
+}
